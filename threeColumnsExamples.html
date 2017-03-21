@@ -1,0 +1,1135 @@
+<!--
+    Bt Web Template 1.0.0-BlueGlass
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--[if lt IE 9]>
+            <script src="js/html5.js"></script>
+            <script src="js/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+        <noscript>
+        <meta http-equiv="refresh" content="0; url=disabledJS.html"/>
+        </noscript>
+
+        <link href="css/css-btWebTemplate-1.0.0-BlueGlass.css" type="text/css" rel="stylesheet"/>
+        <script src="js/js-btWebTemplate-1.0.0-BlueGlass.js" type="text/javascript"></script>
+
+        <title>Bt Web Template 1.0.0-BlueGlass</title>
+    </head>
+    <body>
+
+        <div class="page">
+            <header>
+                <nav class="topNav">
+                    <ul class="topMenu">
+                        <li><a href="#" target="_blank">Top link 1</a> |</li>
+                        <li><a href="#" target="_blank">Top link 2</a> |</li>
+                        <li><a href="#" target="_blank">Top link 3</a> |</li>
+                        <li><a href="3" target="_blank">Top link 3</a></li>
+                    </ul>
+                </nav>
+                <img src="images/logo.png" alt="Logo" class="logo"/>
+                <img src="images/logo2.png" alt="Logo 2" class="logo2" />                
+            </header>
+            
+            <nav class="mainNav">
+                <ul class="mainMenu">  
+                    <li><a href="#">Link 1</a> <li>
+                    <li><a href="#">Link 2</a>
+                        <ul>
+                            <li><a href="#">Link 1.1</a></li>
+                            <li><a href="#">Link 1.2</a></li>
+                            <li><a href="#">Link 1.3 (Sub menu)</a>
+                                <ul>
+                                    <li><a href="#">Link 1.3.1</a></li>
+                                    <li><a href="#">Link 1.3.2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Link 1.4</a></li>
+                        </ul>
+                    </li>
+                </ul>                
+                
+                <div class="userSession">
+                    <!-- Login form-->
+                    <div class="username"><span class="userOptions">Log In</span></div>
+                    <div class="userOut userOptions" title="Options"></div>
+                    <div  id="divUOptions"  class="divUOptions">
+                        <div class="dropdown-caret">
+                            <span class="caret-outer"></span>
+                            <span class="caret-inner"></span>
+                        </div>
+                        <div class="informationArea">
+                            <form action="j_spring_security_check" method="POST">
+                                <div class="labelField">Username/Email: </div>
+                                <input type="text" name="username" class="login" required="required"/>
+                                <div class="labelField">Password: </div> 
+                                <input type="password" name="password" class="login" required="required"/>
+                                <input type="submit" value="Log In" class="pathButton"/>
+                            </form>
+                        </div>
+
+                        <ul class="ulUserOptions">
+                            <li class="dropdown-divider"></li>
+                            <li><a href="#" title="">Register</a></li>
+                        </ul>
+                    </div>
+                    <!--End login form -->
+
+
+                    <!-- Logged user -->
+                    <!--
+                    <div class="username"><span class="userOptions">Username</span></div>
+                    <div class="userIn userOptions" title="Options"></div>
+                    <div  id="divUOptions" class="divUOptions">
+                        <div class="dropdown-caret">
+                            <span class="caret-outer"></span>
+                            <span class="caret-inner"></span>
+                        </div>
+                        <div class="informationArea">
+                            Full name
+                        </div>
+                        <div class="otherInformation">
+                            Other Information
+                        </div>
+                        <ul class="ulUserOptions">
+                            <li class="dropdown-divider"></li>
+                            <li><a href="#" title="">Profile</a></li>
+                            <li><a href="perfil/ajustes" title="">Configuration</a></li>
+                            <li class="dropdown-divider"></li>
+                            <li><a href="logout" title="">Log Out</a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <!--End logged user -->
+
+                </div>                
+            </nav>
+
+            <aside class="aside leftSide">
+
+                <nav class="nav" role="navigation">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </nav>
+
+                <article class="sideArticle">
+                    <section class="contentSideArticle">
+                        <p class="justify">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                    </section>
+                </article>
+
+                <article class="sideArticle">
+                    <h1>Title  article</h1>
+                    <section class="contentSideArticle">
+                        <p class="justify">
+                            Lorem <a href="#">ipsum dolor sit amet</a>, <b>consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div class="articleDivider"></div>
+
+                        <input type="button" name="button" value="Blue button" class="blueButton">
+                        <input type="button" name="button" value="Green button" class="greenButton">
+
+                    </section>
+                </article>
+
+                <div class="messageBox ui-state-highlight ui-corner-all">
+                    <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+                    <strong>Hey!</strong> Sample highlight style.
+                </div>
+
+                <div class="messageBox ui-state-error ui-corner-all">
+                    <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+                    <strong>Alert:</strong> Sample error style.
+                </div>
+
+                <div class="contentSlider">
+                    <div class="bxslider" type="content">
+                        <span>
+                            <div class="titleArticle">Slide 1</div>
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+                        </span>
+                        <span>
+                            <div class="subtitleArticle">Slide 2</div>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                            <div class="articleDivider"></div>
+                            - <a href="#">Link 1</a>
+                            <br/>
+                            - <a href="#">Link 2</a>
+                            <br/>
+                            - <a href="#">Link 3</a>
+                        </span>
+                        <span>
+                            <div class="titleArticle">Slide 3</div>
+                            Excepteur <a href="#">sint occaecat</a> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                            <div class="articleDivider"></div>
+
+                            <input type="button" name="button" value="Blue button" class="blueButton">
+                            <input type="button" name="button" value="Green button" class="greenButton">
+
+                        </span>
+                        <span>
+                            <div class="subtitleArticle">Slide 4.1</div>
+                            Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+
+                            <div class="articleDivider"></div>
+
+                            <div class="subtitleArticle">Slide 4.2</div>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </span>                        
+                    </div>
+                </div>
+
+            </aside>
+
+            <section class="mainContent middleContent">
+
+                <div class="content">
+
+                    <h1>This is an example
+                        <span class="subtitlePage">Using "Three Columns" format.</span>
+                        <a href="#" class="reward">Back</a>
+                    </h1>
+                    
+                    <article>
+                        <div class="titleArticle">Text styles</div>
+
+                        <div class="subtitleArticle">Large section</div>
+
+                        <section class="contentArticle">
+
+                            <section class="sectionLarge">
+                                <p class="justify">
+                                    <img src="images/logo.png" alt="Logo" width="150px" style="float: left;">
+                                    Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <div class="subtitleArticle">Left & right sections</div>
+
+                        <section class="contentArticle">
+
+                            <section class="sectionLeft">
+                                <p>
+                                    Excepteur sint occaecat <i>cupidatat non proident</i>, sunt in culpa qui officia deserunt mollit anim id <del>est laborum</del>.
+                                </p>
+
+                                <section class="sectionRight">
+                                    <p>
+                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    </p>
+                                </section>
+                                <section class="sectionLeft">
+                                    <p>
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+                                    </p>
+                                </section>
+                            </section>
+
+                            <section class="sectionRight">
+                                <p class="justify">
+                                    Sed ut perspiciatis unde omnis iste natus error sit <ins>voluptatem accusantium</ins> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                                <p class="justify">
+                                    <img src="images/logo.png" alt="Image" width="150px" style="float: right;">
+                                    At vero eos <a href="#">et accusamus</a>  et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+                                </p>
+                            </section>
+
+                        </section>
+                    </article>
+
+                    <article>
+
+                        <div class="titleArticle">Button styles</div>
+
+                        <section class="contentArticle">
+
+                            <section class="sectionLarge">
+                                <input type="button" name="button" value="Blue button" class="blueButton">
+                                <input type="button" name="button" value="Green button" class="greenButton">
+                                <input type="button" name="button" value="Orange button" class="orangeButton">
+                                <input type="button" name="button" value="Purple button" class="purpleButton">
+                                <input type="button" name="button" value="Red button" class="redButton">
+                                <input type="button" name="button" value="Grey button" class="greyButton">
+                            </section>
+
+                        </section>
+
+
+                    </article>
+
+
+                    <article>
+
+                        <div class="titleArticle">Form elements styles</div>
+
+                        <section class="contentArticle">
+
+                            <form>
+                                <div class="subtitleArticle">Elements left & right</div>
+
+                                <section class="sectionLeft">
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text expanded
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input type="text" name="text" maxlength="250" required="" class="expanded" value="" placeholder="Text validation" validate="texto">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text large
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input type="text" name="text" maxlength="250" required="" class="large numberMask" value="" placeholder="Number validation & mask" validate="numerico">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text big
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input type="text" name="text" maxlength="250" required="" class="big" value="" placeholder="Username validation" validate="usuario">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text standar
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input type="text" name="text" maxlength="250" required="" class="standar" value="" placeholder="Names validation" validate="nombres">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text medium
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input type="text" name="text" maxlength="250" required="" class="medium" value="" placeholder="Address validation" validate="domicilio">
+                                    </div>
+
+                                    <section class="sectionLeft">
+                                        <div class="fieldcontain">
+                                            <label>
+                                                Text litle left
+                                                <span class="required-indicator">*</span>
+                                            </label>
+                                            <input type="text" name="text" maxlength="250" required="" class="litle" value="" placeholder="Nextel validation" validate="IdNext">
+                                        </div>
+                                    </section>
+                                    <section class="sectionRight">
+                                        <div class="fieldcontain">
+                                            <label>
+                                                Text micro right
+                                                <span class="required-indicator">*</span>
+                                            </label>
+                                            <input type="text" name="text" maxlength="250" required="" class="micro" value="" placeholder="Blod type validation" validate="tsangre">
+                                        </div>
+                                    </section>
+
+                                    <div class="fieldcontain  required">
+                                        <label>
+                                            Textarea expanded
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <textarea name="textarea" cols="40" rows="5" maxlength="500" required="" class="expanded" placeholder="Textarea validation" validate="textarea"></textarea>
+                                    </div>
+
+                                </section>
+
+                                <section class="sectionRight">
+
+                                    <div class="fieldcontain  required">
+                                        <label>
+                                            Checkbox in line
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+
+                                        <label class="labelCheckRadio labelInline"><input type="checkbox" name="element" value="2"> Element</label>
+                                        <label class="labelCheckRadio labelInline"><input type="checkbox" name="element" value="2"> Element</label>
+                                        <label class="labelCheckRadio labelInline"><input type="checkbox" name="element" value="2"> Element</label>
+
+                                    </div>
+
+                                    <div class="fieldcontain  required">
+                                        <label>
+                                            Checkbox in list
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element</label>
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element</label>
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element</label>
+
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Radio in line
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+                                        <label class="labelCheckRadio labelInline"><input type="radio" name="radio" value="1" required=""> Option</label>
+                                        <label class="labelCheckRadio labelInline"><input type="radio" name="radio" value="2" required=""> Option</label>
+                                        <label class="labelCheckRadio labelInline"><input type="radio" name="radio" value="2" required=""> Option</label>
+
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Radio in list
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+                                        <label class="labelCheckRadio"><input type="radio" name="radio" value="1" required=""> Option</label>
+                                        <label class="labelCheckRadio"><input type="radio" name="radio" value="2" required=""> Option</label>
+                                        <label class="labelCheckRadio"><input type="radio" name="radio" value="2" required=""> Option</label>
+
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Dropdown list
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+                                        <select name="dropdown" class="select" id="dropdown1">
+                                            <option value="1" sourceText="Text to filter here">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                            <option value="4">Option 4</option>
+                                            <option value="5">Option 5</option>
+                                        </select>
+
+                                        <script type="text/javascript">
+                                            $(document).ready(function() {
+                                                $("#dropdown1").change(function() {
+                                                    alert("Selected value: " + $(this).val());
+                                                });
+                                            });
+                                        </script>
+
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Dropdown multiselect list
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+                                        <select name="dropdown"  multiple="multiple" id="dropdown2" class="multiselect">
+                                            <option value="1" sourceText="Text to filter here">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                            <option value="4">Option 4</option>
+                                            <option value="5">Option 5</option>
+                                        </select>
+
+                                        <script type="text/javascript">
+                                            $(document).ready(function() {
+                                                $("#dropdown2").change(function() {
+                                                    alert("Selected value: " + $(this).val());
+                                                });
+
+                                            });
+                                        </script>
+
+                                    </div>
+
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Dropdown autocomplete text & list
+                                            <span class="required-indicator">*</span>
+                                        </label>
+
+                                        <select name="dropdown" class="autoCompleteSelect standar" placeholder="Enter an option" id="dropdown3">
+                                            <option value=""></option>
+                                            <option value="1" sourceText="Text to filter here">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                            <option value="4">Option 4</option>
+                                            <option value="5">Option 5</option>
+                                        </select>
+
+                                        <script type="text/javascript">
+                                            $(document).ready(function() {
+                                                $("#dropdown3").change(function() {
+                                                    alert("Selected value: " + $(this).val());
+                                                });
+
+                                            });
+                                        </script>
+                                    </div>
+
+                                </section>
+
+                                <div class="articleDivider"></div>
+
+                                <section class="sectionLarge">
+
+                                    <div class="subtitleArticle">Elements auto alignment left & right</div>
+
+                                    <div class="fieldcontain multiplefield">
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element 1</label>
+                                    </div>
+
+                                    <div class="fieldcontain multiplefield fieldComposite">
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element 2 & border</label>
+                                    </div>
+
+                                    <div class="fieldcontain multiplefield">
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element 3</label>
+                                    </div>
+
+                                    <div class="fieldcontain multiplefield">
+                                        <label class="labelCheckRadio"><input type="checkbox" name="element" value="2"> Element 4</label>
+                                    </div>
+                                </section>
+
+                                <div class="articleDivider"></div>
+
+
+                                <div class="subtitleArticle">HTML5 data types</div>
+
+                                <section class="sectionLeft">
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Color: (Chrome,Opera,Mobile)
+                                        </label>
+                                        <input type="color" name="text" maxlength="250" required="" class="micro" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Email: (IE,Firefox,Chrome,Opera,Mobile)
+                                        </label>
+                                        <input type="email" name="text" maxlength="250" required="" class="big" value="" placeholder="Enter an email (Email validation)" validate="email">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Number: (IE,Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="number" name="text" maxlength="250" required="" class="micro" value="" placeholder="#">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Range: (IE,Firefox,Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="range" name="text" maxlength="250" required="" class="big" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Search: (Chrome,Safari,Mobile)
+                                        </label>
+                                        <input type="search" name="text" maxlength="250" required="" class="big" value="" placeholder="Text to search">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Telephone: (Only mobile)
+                                        </label>
+                                        <input type="tel" name="text" maxlength="250" required="" class="medium" value="" placeholder="Enter a telephone">
+                                    </div>
+
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            URL: (IE,Firefox,Chrome,Opera,Mobile)
+                                        </label>
+                                        <input type="url" name="text" maxlength="250" required="" class="big" value="" placeholder="Enter an url (Url validation)" validate="url">
+                                    </div>
+
+                                </section>
+
+                                <section class="sectionRight">
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Date: (Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="date" name="text" maxlength="250" required="" class="medium" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Datetime: (Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="datetime" name="text" maxlength="250" required="" class="standar" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Datetime local: (Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="datetime-local" name="text" maxlength="250" required="" class="standar" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Month: (Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="month" name="text" maxlength="250" required="" class="standar" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Time: (Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="time" name="text" maxlength="250" required="" class="little" value="">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Week: (Chrome,Opera,Safari,Mobile)
+                                        </label>
+                                        <input type="week" name="text" maxlength="250" required="" class="standar" value="">
+                                    </div>
+
+                                </section>
+
+                                <div class="articleDivider"></div>
+
+                                <fieldset class="buttons">
+                                    <input type="submit" name="save" value="Save">
+                                    <input type="reset" name="reset" value="Reset">
+                                </fieldset>
+                            </form>
+                        </section>
+
+
+                    </article>
+
+                    <article>
+                        <div class="titleArticle">Table styles</div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Simple</div>
+
+                            <table class="filterTable">
+                                <thead>
+                                    <tr>
+                                        <th class="sortable"><a href="#">Column 1</a></th>
+                                        <th class="sortable"><a href="#">Column 2</a></th>
+                                        <th class="sortable"><a href="#">Column 3</a></th>
+                                        <th class="sortable"><a href="#">Column 4</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="even">
+                                        <td><a href="#">Row 1</a></td>
+                                        <td>Row 1</td>
+                                        <td>Row 1</td>
+                                        <td>Row 1</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td><a href="#">Row 2</a></td>
+                                        <td>Row 2</td>
+                                        <td>Row 2</td>
+                                        <td>Row 2</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td><a href="#">Row 3</a></td>
+                                        <td>Row 3</td>
+                                        <td>Row 3</td>
+                                        <td>Row 3</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td><a href="#">Row 4</a></td>
+                                        <td>Row 4</td>
+                                        <td>Row 4</td>
+                                        <td>Row 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="pagination">
+                                <a href="#" class="prevLink">Previous</a><span class="currentStep">1</span><a href="#" class="step">2</a><a href="#" class="step">3</a><a href="#" class="nextLink">Next</a>
+                            </div>
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Dinamic table</div>
+
+                            <table class="dataTable">
+                                <thead>
+                                    <tr>
+                                        <th>Column 1</th>
+                                        <th>Column 2</th>
+                                        <th>Column 3</th>
+                                        <th>Column 4</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#">Row 1</a></td>
+                                        <td>Row 1</td>
+                                        <td>Row 1</td>
+                                        <td>Row 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Row 2</a></td>
+                                        <td>Row 2</td>
+                                        <td>Row 2</td>
+                                        <td>Row 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Row 3</a></td>
+                                        <td>Row 3</td>
+                                        <td>Row 3</td>
+                                        <td>Row 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">Row 4</a></td>
+                                        <td>Row 4</td>
+                                        <td>Row 4</td>
+                                        <td>Row 4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br/>
+                        </section>
+                    </article>
+
+                    <article>
+
+                        <div class="titleArticle">Jquery UI</div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Accordion</div>
+
+                            <section class="sectionLarge">
+
+                                <div class="accordion">
+                                    <h3>Section 1</h3>
+                                    <div>
+                                        <p>
+                                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                                            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                                            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                                            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                                        </p>
+                                    </div>
+                                    <h3>Section 2</h3>
+                                    <div>
+                                        <p>
+                                            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                                            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                                            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                                            suscipit faucibus urna.
+                                        </p>
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div>
+                                        <p>
+                                            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                                            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                                            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                                            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                                        </p>
+                                        <ul>
+                                            <li>List item one</li>
+                                            <li>List item two</li>
+                                            <li>List item three</li>
+                                        </ul>
+                                    </div>
+                                    <h3>Section 4</h3>
+                                    <div>
+                                        <p>
+                                            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                                            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                                            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                                            mauris vel est.
+                                        </p>
+                                        <p>
+                                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                            inceptos himenaeos.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Tabs</div>
+
+                            <section class="sectionLarge">
+
+                                <div class="tabs">
+                                    <ul>
+                                        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                                        <li><a href="#tabs-2">Proin dolor</a></li>
+                                        <li><a href="#tabs-3">Aenean lacinia</a></li>
+                                    </ul>
+                                    <div id="tabs-1">
+                                        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+                                    </div>
+                                    <div id="tabs-2">
+                                        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                                    </div>
+                                    <div id="tabs-3">
+                                        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                                        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                                    </div>
+                                </div>
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Tooltip</div>
+
+                            <section class="sectionLarge">
+
+                                <a class="tooltip" href="#" title="This is an tooltip">Show</a> tooltip
+
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Dialog</div>
+
+                            <section class="sectionLarge">
+
+                                <div id="divDialog"  class="hidden">
+                                    <p>Content of dialog</p>
+                                </div>
+
+                                <form action="#" id="formDialog" class="hidden">
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text fiel 1 (dialog)
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input id="dialogField1" type="text" name="text" maxlength="250" required="" class="expanded" value="" placeholder="Text validation" validate="texto">
+                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text field 2 (dialog)
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input id="dialogField2" type="text" name="text" maxlength="22" required="" class="expanded numberMask" value="" placeholder="Number validation &amp; mask" validate="numerico" autocomplete="off">                                    </div>
+
+                                    <div class="fieldcontain">
+                                        <label>
+                                            Text field 3 (dialog)
+                                            <span class="required-indicator">*</span>
+                                        </label>
+                                        <input id="dialogField3" type="text" name="text" maxlength="250" required="" class="expanded" value="" placeholder="Text validation" validate="texto">
+                                    </div>
+
+                                </form>
+
+                                <a href="#" onclick="dialog('Title simple dialog', 'Text message or HTML code <b>bold</b>', 400, 250);
+                                    return false;">Show</a> simple dialog
+                                <br/>
+                                <a href="#" onclick="divDialog('Title div dialog', 'divDialog', 400, 250);
+                                    return false;">Show</a> dialog (Source from div)
+                                <br/>
+                                <a href="#" onclick="loadingDialog('Loading title (Press Esc)');
+                                    return false;">Show</a> loading dialog
+                                <br/>
+                                <a href="#" onclick="redirectDialog('Title  redirect dialog', 'Redirecting to <b>Google</b>', 400, 250, 'http://www.google.com/');
+                                    return false;">Show</a> redirect dialog
+                                <br/>
+                                <a href="#" onclick="confirmDialog('Title confirm dialog', 'Text message or HTML code <b>bold</b>', 400, 250, 'yesFunction(\'Hello\',4)', 'noFunction');
+                                    return false;">Show</a> confirm dialog (If select "yes" it send parameters to function)
+                                <br/>
+                                <a href="#" onclick="formDialog('Title form dialog', 'formDialog', 400, 300, 'formFunction');
+                                    return false;">Show</a> dialog (Source from form)
+                                <br/>
+                                <a href="#" onclick="frameDialog('Title frame dialog', 'http://www.morelos.gob.mx', 600, 500);
+                                    return false;">Show</a> frame dialog
+                                <br/>
+
+
+                                <script type="text/javascript">
+                                    function yesFunction(string, number) {
+                                        alert("You selected yes... Received String: " + string + " & number: " + number);
+                                    }
+
+                                    function noFunction() {
+                                        alert("You selected No");
+                                    }
+
+                                    function formFunction() {
+                                        alert("You submited form. Values: Field 1 = " + $("#dialogField1").val() + ", Field 2 = " + $("#dialogField2").val() + ", Field 3 = " + $("#dialogField3").val());
+                                    }
+                                </script>
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Datepicker</div>
+
+                            <section class="sectionLarge">
+
+                                <input type="text" name="date" class="datePicker dateMask" placeholder="Date validation & mask" validate="fecha"/>
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Slider</div>
+
+                            <section class="sectionLarge">
+
+                                <p>
+                                    <label for="amount">Maximum price:</label>
+                                    <input type="text" id="amount" class="micro">
+                                </p>
+
+                                <div class="slider" inputId="amount" val="20" min="0" max="100" step="5"></div>
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Progress bar</div>
+
+                            <section class="sectionLarge">
+
+                                <div class="progressbar" val="30"><div class="progress-label">Loading...</div></div>
+                                <br/>
+                                <div class="progressbar" val="false"><div class="progress-label">Loading...</div></div>
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Icons</div>
+
+                            <section class="sectionLarge">
+                                <span class="ui-icon ui-icon-carat-1-n blueIcon"></span><span class="ui-icon ui-icon-carat-1-ne blueIcon"></span><span class="ui-icon ui-icon-carat-1-e blueIcon"></span><span class="ui-icon ui-icon-carat-1-se blueIcon"></span><span class="ui-icon ui-icon-carat-1-s blueIcon"></span><span class="ui-icon ui-icon-carat-1-sw blueIcon"></span><span class="ui-icon ui-icon-carat-1-w blueIcon"></span><span class="ui-icon ui-icon-carat-1-nw blueIcon"></span><span class="ui-icon ui-icon-carat-2-n-s blueIcon"></span><span class="ui-icon ui-icon-carat-2-e-w blueIcon"></span><span class="ui-icon ui-icon-triangle-1-n blueIcon"></span><span class="ui-icon ui-icon-triangle-1-ne blueIcon"></span><span class="ui-icon ui-icon-triangle-1-e blueIcon"></span><span class="ui-icon ui-icon-triangle-1-se blueIcon"></span><span class="ui-icon ui-icon-triangle-1-s blueIcon"></span><span class="ui-icon ui-icon-triangle-1-sw blueIcon"></span><span class="ui-icon ui-icon-triangle-1-w blueIcon"></span><span class="ui-icon ui-icon-triangle-1-nw blueIcon"></span><span class="ui-icon ui-icon-triangle-2-n-s blueIcon"></span><span class="ui-icon ui-icon-triangle-2-e-w blueIcon"></span><span class="ui-icon ui-icon-arrow-1-n blueIcon"></span><span class="ui-icon ui-icon-arrow-1-ne blueIcon"></span><span class="ui-icon ui-icon-arrow-1-e blueIcon"></span><span class="ui-icon ui-icon-arrow-1-se blueIcon"></span><span class="ui-icon ui-icon-arrow-1-s blueIcon"></span><span class="ui-icon ui-icon-arrow-1-sw blueIcon"></span><span class="ui-icon ui-icon-arrow-1-w blueIcon"></span><span class="ui-icon ui-icon-arrow-1-nw blueIcon"></span><span class="ui-icon ui-icon-arrow-2-n-s blueIcon"></span><span class="ui-icon ui-icon-arrow-2-ne-sw blueIcon"></span><span class="ui-icon ui-icon-arrow-2-e-w blueIcon"></span><span class="ui-icon ui-icon-arrow-2-se-nw blueIcon"></span><span class="ui-icon ui-icon-arrowstop-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowstop-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowstop-1-s blueIcon"></span><span class="ui-icon ui-icon-arrowstop-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-ne blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-se blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-s blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-sw blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowthick-1-nw blueIcon"></span><span class="ui-icon ui-icon-arrowthick-2-n-s blueIcon"></span><span class="ui-icon ui-icon-arrowthick-2-ne-sw blueIcon"></span><span class="ui-icon ui-icon-arrowthick-2-e-w blueIcon"></span><span class="ui-icon ui-icon-arrowthick-2-se-nw blueIcon"></span><span class="ui-icon ui-icon-arrowthickstop-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowthickstop-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowthickstop-1-s blueIcon"></span><span class="ui-icon ui-icon-arrowthickstop-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowreturnthick-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowreturnthick-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowreturnthick-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowreturnthick-1-s blueIcon"></span><span class="ui-icon ui-icon-arrowreturn-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowreturn-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowreturn-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowreturn-1-s blueIcon"></span><span class="ui-icon ui-icon-arrowrefresh-1-w blueIcon"></span><span class="ui-icon ui-icon-arrowrefresh-1-n blueIcon"></span><span class="ui-icon ui-icon-arrowrefresh-1-e blueIcon"></span><span class="ui-icon ui-icon-arrowrefresh-1-s blueIcon"></span><span class="ui-icon ui-icon-arrow-4 blueIcon"></span><span class="ui-icon ui-icon-arrow-4-diag blueIcon"></span><span class="ui-icon ui-icon-extlink blueIcon"></span><span class="ui-icon ui-icon-newwin blueIcon"></span><span class="ui-icon ui-icon-refresh blueIcon"></span><span class="ui-icon ui-icon-shuffle blueIcon"></span><span class="ui-icon ui-icon-transfer-e-w blueIcon"></span><span class="ui-icon ui-icon-transferthick-e-w blueIcon"></span><span class="ui-icon ui-icon-folder-collapsed blueIcon"></span><span class="ui-icon ui-icon-folder-open blueIcon"></span><span class="ui-icon ui-icon-document blueIcon"></span><span class="ui-icon ui-icon-document-b blueIcon"></span><span class="ui-icon ui-icon-note blueIcon"></span><span class="ui-icon ui-icon-mail-closed blueIcon"></span><span class="ui-icon ui-icon-mail-open blueIcon"></span><span class="ui-icon ui-icon-suitcase blueIcon"></span><span class="ui-icon ui-icon-comment blueIcon"></span><span class="ui-icon ui-icon-person blueIcon"></span><span class="ui-icon ui-icon-print blueIcon"></span><span class="ui-icon ui-icon-trash blueIcon"></span><span class="ui-icon ui-icon-locked blueIcon"></span><span class="ui-icon ui-icon-unlocked blueIcon"></span><span class="ui-icon ui-icon-bookmark blueIcon"></span><span class="ui-icon ui-icon-tag blueIcon"></span><span class="ui-icon ui-icon-home blueIcon"></span><span class="ui-icon ui-icon-flag blueIcon"></span><span class="ui-icon ui-icon-calculator blueIcon"></span><span class="ui-icon ui-icon-cart blueIcon"></span><span class="ui-icon ui-icon-pencil blueIcon"></span><span class="ui-icon ui-icon-clock blueIcon"></span><span class="ui-icon ui-icon-disk blueIcon"></span><span class="ui-icon ui-icon-calendar blueIcon"></span><span class="ui-icon ui-icon-zoomin blueIcon"></span><span class="ui-icon ui-icon-zoomout blueIcon"></span><span class="ui-icon ui-icon-search blueIcon"></span><span class="ui-icon ui-icon-wrench blueIcon"></span><span class="ui-icon ui-icon-gear blueIcon"></span><span class="ui-icon ui-icon-heart blueIcon"></span><span class="ui-icon ui-icon-star blueIcon"></span><span class="ui-icon ui-icon-link blueIcon"></span><span class="ui-icon ui-icon-cancel blueIcon"></span><span class="ui-icon ui-icon-plus blueIcon"></span><span class="ui-icon ui-icon-plusthick blueIcon"></span><span class="ui-icon ui-icon-minus blueIcon"></span><span class="ui-icon ui-icon-minusthick blueIcon"></span><span class="ui-icon ui-icon-close blueIcon"></span><span class="ui-icon ui-icon-closethick blueIcon"></span><span class="ui-icon ui-icon-key blueIcon"></span><span class="ui-icon ui-icon-lightbulb blueIcon"></span><span class="ui-icon ui-icon-scissors blueIcon"></span><span class="ui-icon ui-icon-clipboard blueIcon"></span><span class="ui-icon ui-icon-copy blueIcon"></span><span class="ui-icon ui-icon-contact blueIcon"></span><span class="ui-icon ui-icon-image blueIcon"></span><span class="ui-icon ui-icon-video blueIcon"></span><span class="ui-icon ui-icon-alert blueIcon"></span><span class="ui-icon ui-icon-info blueIcon"></span><span class="ui-icon ui-icon-notice blueIcon"></span><span class="ui-icon ui-icon-help blueIcon"></span><span class="ui-icon ui-icon-check blueIcon"></span><span class="ui-icon ui-icon-bullet blueIcon"></span><span class="ui-icon ui-icon-radio-off blueIcon"></span><span class="ui-icon ui-icon-radio-on blueIcon"></span><span class="ui-icon ui-icon-play blueIcon"></span><span class="ui-icon ui-icon-pause blueIcon"></span><span class="ui-icon ui-icon-seek-next blueIcon"></span><span class="ui-icon ui-icon-seek-prev blueIcon"></span><span class="ui-icon ui-icon-seek-end blueIcon"></span><span class="ui-icon ui-icon-seek-first blueIcon"></span><span class="ui-icon ui-icon-stop blueIcon"></span><span class="ui-icon ui-icon-eject blueIcon"></span><span class="ui-icon ui-icon-volume-off blueIcon"></span><span class="ui-icon ui-icon-volume-on blueIcon"></span><span class="ui-icon ui-icon-power blueIcon"></span><span class="ui-icon ui-icon-signal-diag blueIcon"></span><span class="ui-icon ui-icon-signal blueIcon"></span><span class="ui-icon ui-icon-battery-0 blueIcon"></span><span class="ui-icon ui-icon-battery-1 blueIcon"></span><span class="ui-icon ui-icon-battery-2 blueIcon"></span><span class="ui-icon ui-icon-battery-3 blueIcon"></span><span class="ui-icon ui-icon-circle-plus blueIcon"></span><span class="ui-icon ui-icon-circle-minus blueIcon"></span><span class="ui-icon ui-icon-circle-close blueIcon"></span><span class="ui-icon ui-icon-circle-triangle-e blueIcon"></span><span class="ui-icon ui-icon-circle-triangle-s blueIcon"></span><span class="ui-icon ui-icon-circle-triangle-w blueIcon"></span><span class="ui-icon ui-icon-circle-triangle-n blueIcon"></span><span class="ui-icon ui-icon-circle-arrow-e blueIcon"></span><span class="ui-icon ui-icon-circle-arrow-s blueIcon"></span><span class="ui-icon ui-icon-circle-arrow-w blueIcon"></span><span class="ui-icon ui-icon-circle-arrow-n blueIcon"></span><span class="ui-icon ui-icon-circle-zoomin blueIcon"></span><span class="ui-icon ui-icon-circle-zoomout blueIcon"></span><span class="ui-icon ui-icon-circle-check blueIcon"></span><span class="ui-icon ui-icon-circlesmall-plus blueIcon"></span><span class="ui-icon ui-icon-circlesmall-minus blueIcon"></span><span class="ui-icon ui-icon-circlesmall-close blueIcon"></span><span class="ui-icon ui-icon-squaresmall-plus blueIcon"></span><span class="ui-icon ui-icon-squaresmall-minus blueIcon"></span><span class="ui-icon ui-icon-squaresmall-close blueIcon"></span><span class="ui-icon ui-icon-grip-dotted-vertical blueIcon"></span><span class="ui-icon ui-icon-grip-dotted-horizontal blueIcon"></span><span class="ui-icon ui-icon-grip-solid-vertical blueIcon"></span><span class="ui-icon ui-icon-grip-solid-horizontal blueIcon"></span><span class="ui-icon ui-icon-gripsmall-diagonal-se blueIcon"></span><span class="ui-icon ui-icon-grip-diagonal-se blueIcon"></span>
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Messages</div>
+
+                            <section class="sectionLarge">
+
+                                <div class="ui-state-highlight ui-corner-all">
+                                    <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+                                    <strong>Hey!</strong> Sample highlight style.
+                                </div>
+
+                                <div class="ui-state-error ui-corner-all">
+                                    <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+                                    <strong>Alert:</strong> Sample error style.
+                                </div>
+
+                                <br/>
+
+                                <div class="message">
+                                    Other message style
+                                </div>
+
+                                <div class="errors">
+                                    Other error style
+                                </div>
+
+                            </section>
+
+                        </section>
+
+                        <div class="articleDivider"></div>
+
+                        <section class="contentArticle">
+
+                            <div class="subtitleArticle">Slideshow</div>
+
+                            <section class="sectionLarge">
+
+                                <ul class="bxslider" type="image">
+                                    <li><img src="images/sliderImage1.png" /></li>
+                                    <li><img src="images/sliderImage2.png" /></li>
+                                    <li><img src="images/sliderImage3.png" /></li>
+                                    <li><img src="images/sliderImage4.png" /></li> 
+                                </ul>
+
+                            </section>
+
+                        </section>
+
+                    </article>                    
+
+                </div>
+
+            </section>
+
+            <aside class="aside rightSide">
+                <nav class="nav" role="navigation">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </nav>
+
+                <article class="sideArticle">
+                    <section class="contentSideArticle">
+                        <p class="justify">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+
+                    </section>
+                </article>
+
+                <article class="sideArticle">
+                    <h1>Title  article</h1>
+                    <section class="contentSideArticle">
+                        <p class="justify">
+                            Lorem <a href="#">ipsum dolor sit amet</a>, <b>consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div class="articleDivider"></div>
+
+                        <input type="button" name="button" value="Blue button" class="blueButton">
+                        <input type="button" name="button" value="Green button" class="greenButton">
+
+                    </section>
+                </article>
+
+                <div class="messageBox ui-state-highlight ui-corner-all">
+                    <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+                    <strong>Hey!</strong> Sample highlight style.
+                </div>
+
+                <div class="messageBox ui-state-error ui-corner-all">
+                    <span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+                    <strong>Alert:</strong> Sample error style.
+                </div>
+
+                <div class="contentSlider">
+                    <div class="bxslider" type="content">
+                        <span>
+                            <div class="titleArticle">Slide 1</div>
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+                        </span>
+                        <span>
+                            <div class="subtitleArticle">Slide 2</div>
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                            <div class="articleDivider"></div>
+                            - <a href="#">Link 1</a>
+                            <br/>
+                            - <a href="#">Link 2</a>
+                            <br/>
+                            - <a href="#">Link 3</a>
+                        </span>
+                        <span>
+                            <div class="titleArticle">Slide 3</div>
+                            Excepteur <a href="#">sint occaecat</a> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                            <div class="articleDivider"></div>
+
+                            <input type="button" name="button" value="Blue button" class="blueButton">
+                            <input type="button" name="button" value="Green button" class="greenButton">
+
+                        </span>
+                        <span>
+                            <div class="subtitleArticle">Slide 4.1</div>
+                            Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+
+                            <div class="articleDivider"></div>
+
+                            <div class="subtitleArticle">Slide 4.2</div>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </span>                        
+                    </div>
+                </div>
+            </aside>
+
+            <div class="footerBar"></div>
+
+            <footer class="footer">
+                <div class="footerText">
+                    <p>
+                        Address 1 ...
+                        <br/>
+                        Address 2 ...
+                        <br/>
+                        Email ...
+                        <br/>
+                        Telephone ...
+                    </p>
+                </div>
+                <div class="footLogo">
+                    <a href="#">
+                        <img src="images/LogoBn.png" alt="Blank Logo"/>
+                    </a>
+                </div>                
+            </footer>
+
+        </div>
+
+    </body>
+</html>

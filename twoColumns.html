@@ -1,0 +1,168 @@
+<!--
+    Bt Web Template 1.0.0-BlueGlass
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--[if lt IE 9]>
+            <script src="js/html5.js"></script>
+            <script src="js/css3-mediaqueries.js"></script>
+        <![endif]-->
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+        <noscript>
+        <meta http-equiv="refresh" content="0; url=disabledJS.html"/>
+        </noscript>
+
+        <link href="css/css-btWebTemplate-1.0.0-BlueGlass.css" type="text/css" rel="stylesheet"/>
+        <script src="js/js-btWebTemplate-1.0.0-BlueGlass.js" type="text/javascript"></script>
+
+        <title>Bt Web Template 1.0.0-BlueGlass</title>
+    </head>
+    <body>
+
+        <div class="page">
+            <header>
+                <nav class="topNav">
+                    <ul class="topMenu">
+                        <li><a href="#" target="_blank">Top link 1</a> |</li>
+                        <li><a href="#" target="_blank">Top link 2</a> |</li>
+                        <li><a href="#" target="_blank">Top link 3</a> |</li>
+                        <li><a href="3" target="_blank">Top link 3</a></li>
+                    </ul>
+                </nav>
+                <img src="images/logo.png" alt="Logo" class="logo"/>
+                <img src="images/logo2.png" alt="Logo 2" class="logo2" />            
+            </header>
+
+            <nav class="mainNav">
+                <ul class="mainMenu">  
+                    <li><a href="#">Link 1</a> <li>
+                    <li><a href="#">Link 2</a>
+                        <ul>
+                            <li><a href="#">Link 1.1</a></li>
+                            <li><a href="#">Link 1.2</a></li>
+                            <li><a href="#">Link 1.3 (Sub menu)</a>
+                                <ul>
+                                    <li><a href="#">Link 1.3.1</a></li>
+                                    <li><a href="#">Link 1.3.2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Link 1.4</a></li>
+                        </ul>
+                    </li>
+                </ul>            
+
+                <div class="userSession">
+                    <!-- Login form-->
+                    <div class="username"><span class="userOptions">Log In</span></div>
+                    <div class="userOut userOptions" title="Options"></div>
+                    <div  id="divUOptions"  class="divUOptions">
+                        <div class="dropdown-caret">
+                            <span class="caret-outer"></span>
+                            <span class="caret-inner"></span>
+                        </div>
+                        <div class="informationArea">
+                            <form action="j_spring_security_check" method="POST">
+                                <div class="labelField">Username/Email: </div>
+                                <input type="text" name="username" class="login" required="required"/>
+                                <div class="labelField">Password: </div> 
+                                <input type="password" name="password" class="login" required="required"/>
+                                <input type="submit" value="Log In" class="pathButton"/>
+                            </form>
+                        </div>
+
+                        <ul class="ulUserOptions">
+                            <li class="dropdown-divider"></li>
+                            <li><a href="#" title="">Register</a></li>
+                        </ul>
+                    </div>
+                    <!--End login form -->
+
+
+                    <!-- Logged user -->
+                    <!--
+                    <div class="username"><span class="userOptions">Username</span></div>
+                    <div class="userIn userOptions" title="Options"></div>
+                    <div  id="divUOptions" class="divUOptions">
+                        <div class="dropdown-caret">
+                            <span class="caret-outer"></span>
+                            <span class="caret-inner"></span>
+                        </div>
+                        <div class="informationArea">
+                            Full name
+                        </div>
+                        <div class="otherInformation">
+                            Other Information
+                        </div>
+                        <ul class="ulUserOptions">
+                            <li class="dropdown-divider"></li>
+                            <li><a href="#" title="">Profile</a></li>
+                            <li><a href="perfil/ajustes" title="">Configuration</a></li>
+                            <li class="dropdown-divider"></li>
+                            <li><a href="logout" title="">Log Out</a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <!--End logged user -->
+
+                </div>            
+            </nav>
+
+            <aside class="aside leftSide">
+
+                <nav class="nav" role="navigation">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </nav>
+
+            </aside>    
+
+            <section class="mainContent">
+
+                <div class="content">
+                    
+                    <h1>Title
+                        <span class="subtitlePage">Subtitle</span>
+                        <a href="#" class="reward">Back</a>
+                    </h1>  
+
+                    <!-- Content here -->
+                    
+                </div>
+
+            </section>
+
+            <div class="footerBar"></div>
+
+            <footer class="footer">
+                <div class="footerText">
+                    <p>
+                        Address 1 ...
+                        <br/>
+                        Address 2 ...
+                        <br/>
+                        Email ...
+                        <br/>
+                        Telephone ...
+                    </p>
+                </div>
+                <div class="footLogo">
+                    <a href="#">
+                        <img src="images/LogoBn.png" alt="Blank Logo"/>
+                    </a>
+                </div>                
+            </footer>
+
+        </div>
+
+    </body>
+</html>

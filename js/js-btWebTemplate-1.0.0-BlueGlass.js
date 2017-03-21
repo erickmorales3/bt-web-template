@@ -1,0 +1,13 @@
+document.write('<script src="js/library/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"></scr'+'ipt>');
+document.write('<script src="js/plugin/ui/1.10.4/jquery-ui-1.10.4.custom.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/autoComplete/jquery.autocomplete.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/dataTables/jquery.dataTables.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/mask/jquery.mask.min.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/library/keypressValidator/1.1.0/js-keypressValidator-1.1.0.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/multiSelect/jquery.multiselect.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/multiSelect/jquery.multiselect.filter.js" type="text/javascript" >></scr'+'ipt>');
+document.write('<script src="js/plugin/bxSlider/jquery.bxslider.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/scrollToFixed/jquery-scrolltofixed.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/library/detectMobileBrowser/detectmobilebrowser.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/dialog/1.1.2/jquery-dialog-1.1.2.js" type="text/javascript">></scr'+'ipt>');
+document.write('<script src="js/plugin/btWebTemplate/1.0.0/jquery-btWebTemplate.ui-1.0.0.js" type="text/javascript">></scr'+'ipt>');
