@@ -31,4 +31,7 @@ Please visit the demo at: [https://erickmorales3.github.io/bt-web-template/](htt
 * Multiselect 1.14pre
 * ScrollToFixed by Joseph Cava-Lynch
 
+License
+----
 
+ MIT License
